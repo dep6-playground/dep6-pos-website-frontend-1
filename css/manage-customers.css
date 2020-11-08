@@ -80,3 +80,16 @@
 .table tr th{
     text-align: center;
 }
+
+#image{
+    animation-name: hello-css3-animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hello-css3-animation {
+    50%{
+        transform: scaleX(1.2);
+    }
+}
+
