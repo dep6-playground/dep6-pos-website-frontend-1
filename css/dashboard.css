@@ -131,3 +131,15 @@ footer{
 main{
     min-height: calc(100vh - 48px);
 }
+
+#company-name{
+    animation-name: hello-css3-animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hello-css3-animation {
+    50%{
+        transform: scaleX(1.2);
+    }
+}
