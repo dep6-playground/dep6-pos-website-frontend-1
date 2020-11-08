@@ -139,7 +139,19 @@ main{
 }
 
 @keyframes hello-css3-animation {
+    0%{
+        transform: rotateY(0deg);
+    }
+    25%{
+        transform: rotateY(90deg);
+    }
     50%{
-        transform: scaleX(1.2);
+        transform: rotateY(180deg);
+    }
+    75%{
+        transform: rotateY(270deg);
+    }
+    100%{
+        transform: rotateY(350deg);
     }
 }
